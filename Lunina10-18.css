@@ -1,0 +1,107 @@
+    div.ten, div.eleven, div.tvelv {
+        background: white;
+        border: 1px solid red;
+        width: 30%;
+        height: 20px;
+        margin: 0px 0px 10px 10px;
+        transition: all 1s ease-out;
+    }
+    div.ten :last-child, {
+        margin-bottom: 0;
+    }
+    div.ten:hover  + div.ten {
+        width: 70%;
+    }
+    div.eleven:hover  ~ div.eleven{ 
+        width: 70%;
+    }
+    div.tvelv:hover  + div.tvelv + div.tvelv {
+        width: 70%;
+    }
+    .d13-1 
+    { background: white;
+       border: 2px solid red;
+       height: 30px; 
+       padding: 10px;
+       white-space: nowrap;
+       
+    }
+    .d13-2 
+   { background: rgb(245, 4, 4);
+     color: white;
+     width: 300px;
+     height: 40px; 
+     margin: 10px 0px 0px -400px;
+    line-height: 40px;
+    text-align: center;
+    white-space: nowrap;
+    transition: all 1s ease-out;
+}
+    .d13-1:hover + .d13-2{ 
+    margin-left: 30%; 
+    }
+    #d14-1{
+        border: 1px solid red;
+        width: 30%;
+        height: 40px;
+        transition: width 2s steps(2, start);
+    }
+    #d14-2{
+        border: 1px solid red;
+        width: 30%;
+        height: 40px;
+        margin-top: 10px;
+        transition: width 2s steps(2, end);
+    }
+    #d14:hover div{
+        width: 100%;
+    }
+    #d15 {
+        border: 1px solid red;
+        width: 30%;
+        height: 40px;
+        transition: width 3s cubic-bezier(.40,-0.4,0,.80);
+    }
+    #d15:hover {
+        width: 100%;
+    }
+    .d16, .d17 {
+        margin: 0px auto;
+        width: 50%;
+        height: 40px;
+        border: 1px solid red;
+    }
+    .d16-1 {
+        background: red;
+        width: 0%;
+        height: 40px;
+        transition: all 2s linear;
+    }
+    .d16:hover div{ 
+        width: 100%; 
+    }
+    .d17-1 {
+        background: red;
+        width: 0%;
+        height: 40px;
+        transition: all 4s steps(5, start);
+    }
+    .d17:hover div{ 
+        width: 100%; 
+    }
+    #d18{
+        background: white;
+        border: 1px solid red;
+        width: 150px;
+        height: 50px;
+        margin: 200px auto;
+        transition: all 1s linear;
+        box-shadow: -100px 100px black, 100px -100px black;
+        
+    }
+    #d18:hover { 
+        box-shadow: 100px 100px black, 100px 100px black; 
+    }
+    p {
+        text-align: center;
+    }

@@ -1,0 +1,87 @@
+#d1 {
+   background: white;
+   color:rgb(3, 3, 83);
+   border: 2px solid red;
+   width: 300px;
+   height: 50px;
+   transition: background 2s ease
+}
+
+#d1:hover {
+	background: red;
+   color: white;
+}
+#d3 {
+   background: white;
+   color:rgb(3, 3, 83);
+   border: 2px solid red;
+   width: 300px;
+   height: 50px;
+   font-size: 15;
+   transition: width 2s ease-out 2s, font-size 2s ease-out 3s
+}
+#d3:hover {
+	width: 100%;
+   font-size: 30px;
+   }
+
+#d5 
+{ background: white;
+   border: 2px solid red;
+   width: 300px;
+   color:rgb(3, 3, 83);
+   height: 50px; 
+   transition: width 2s ease-out 0.4s,  margin-left 2s ease-out 0.4s;
+}
+#d5:hover { 
+  width: 70%;
+  margin-left: 10%;
+}
+
+#d6 
+{ background: white;
+   border: 2px solid red;
+   width: 300px;
+   color:rgb(3, 3, 83);
+   height: 50px; 
+   text-indent: 3000px;
+   line-height: 50px;
+   text-align: center;
+   white-space: nowrap;
+   transition: text-indent 2s linear;
+}
+#d6:hover { 
+text-indent: 0px; 
+}
+
+input {
+	width: 295px;
+	height: 50px;
+	padding: 0px 0px 0px 5px;
+   color:rgb(4, 146, 156);
+   transition: all 1s ease-out;
+ }
+input:focus{ 
+	width: 600px; box-shadow: 0px 0px 5px rgb(4, 146, 156); color:rgb(3, 3, 83);
+}
+.big div{
+	background: white;
+	border: 1px solid red;
+   width: 30%;
+	height: 40px;
+   margin-bottom: 20px;
+   transition: all 2s ease-out;
+}
+.big div:last-child{
+	margin-bottom: 0;
+}
+.big {
+	padding: 30px;
+	border: 1px solid green;
+}
+.big:hover div{ 
+	width: 100%;
+}
+p {
+   text-align: center;
+}
